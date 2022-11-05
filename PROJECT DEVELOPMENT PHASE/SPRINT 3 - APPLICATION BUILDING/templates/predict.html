@@ -8,8 +8,6 @@
     <title>Document</title>
 </head>
     <body>
-    <p id="description">Thank you for taking time to review my projects</p>
-
     <form id="survey-form" action="{{ url_for('predict')}}" method="post">
         <h1 id="title">Loan Eligibility checklist</h1>
         <fieldset id="content">
@@ -107,7 +105,7 @@
                        id="loan_amount_term"
                        name="loan_amount_term"
                        type="number"
-                       placeholder="Enter your age"
+                       placeholder="Enter your time of repayment"
                        required
                 />
             </div>
