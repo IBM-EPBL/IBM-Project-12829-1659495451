@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <div class="Section_top">
+        <div class="content">
+            <h1>Welcome <span>Check your Loan Credibility Status</span></h1>
+            <h3></h3>
+            <a href="predict"><strong>Check</strong></a>
+            <h3>
+                Loan Credibility is a tedious process, rather than going to bank and getting rejected.
+                We made it simple that you can get your loan approval status by our machine learning model,
+                We just need some of your information
+            </h3>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://w0.peakpx.com/wallpaper/34/887/HD-wallpaper-loan-3d-icon-white-background-3d-symbols-loan-finance-icons-3d-icons-loan-sign-business-3d-icons.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+    padding:20px;
+    background:rgb(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.content h3{
+    text-transform:none;
+    padding-top:20px;
+    text-align:justify;
+    font-size:22px;
+    color:white;
+}
+.content h1{
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+.content h1 span{
+    color: white;
+}
+@keyframes hue {
+  from {
+        background-position:100% 200%;
+  }
+  to {
+        background-position:200% 100%;
+  }
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    color: #fff;
+    background-size:400% 400%;
+    background: linear-gradient(92deg, purple, blue);
+	animation: hue 10s infinite linear;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url("https://w0.peakpx.com/wallpaper/34/887/HD-wallpaper-loan-3d-icon-white-background-3d-symbols-loan-finance-icons-3d-icons-loan-sign-business-3d-icons.jpg");
+    }
+    20%
+    {
+        background-image: url("https://img.freepik.com/free-photo/front-view-arrangement-economy-elements_23-2148793796.jpg?w=1380&t=st=1666640645~exp=1666641245~hmac=48e5f735773cef1ea5f59694ac7a4ea01f7ff1f5218cf249cb8d059bf7f43fc3");
+    }
+    40%
+    {
+        background-image: url("https://img.freepik.com/free-photo/handshake-close-up-executives_1098-1384.jpg?w=1060&t=st=1666640887~exp=1666641487~hmac=97ac37201bf1e9dbea5d44e48143fe3cadbf438e9838ccb00d294e4c382b78f3");
+    }
+    60%
+    {
+        background-image: url("https://img.freepik.com/premium-photo/young-indian-banker-agronomist-showing-some-detail-farmer-smartphone_54391-5357.jpg?w=1060");
+    }
+    80%
+    {
+        background-image: url("https://img.freepik.com/free-photo/happy-young-asian-couple-realtor-agent_7861-1032.jpg?w=1060&t=st=1666640815~exp=1666641415~hmac=2b4dc2a61389073205cf1447599382014a34cb1bf6c94f517f1d2708a66e46f1");
+    }
+    100%
+    {
+        background-image: url("https://img.freepik.com/free-photo/hands-agent-client-shaking-hands-after-signed-contract-buy-new-apartment_1150-14835.jpg?w=1060&t=st=1666641204~exp=1666641804~hmac=eab7c6e1eeb5e8e1000e10e4dab8c39be134266f416bb6e710d9d4ebbaef3c87");
+    }
+}
+</style>
